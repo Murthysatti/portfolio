@@ -761,6 +761,9 @@ nav {
         font-size: 1.6em;
         flex-direction: row;
     }
+    .icons :hover{
+        font-size:1.9em;
+    }
 
     .square .profile {
         height: 30vh;
