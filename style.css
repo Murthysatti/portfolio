@@ -595,6 +595,9 @@ nav {
     .profile #pro {
         font-size: 20px;
     }
+    #hi {
+        margin-left: 30px;
+    }
 }
 /* for height */
 @media (min-height :760px){
@@ -729,5 +732,8 @@ nav {
     }
     .profile #pro {
         font-size: 13px;
+    }
+    #hi {
+        margin-left: 10px;
     }
 }
