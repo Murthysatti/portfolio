@@ -213,7 +213,7 @@ nav {
 }
 
 #btek {
-    border: 2px solid hsl(60, 100%, 80%);
+    border: 2px solid hsl(60, 100%, 88%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 5px 0px 5px;
@@ -235,7 +235,7 @@ nav {
 }
 
 #dip {
-    border: 2px solid hsl(60, 100%, 80%);
+    border: 2px solid hsl(60, 100%, 88%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 5px 0px 5px;
@@ -263,7 +263,7 @@ nav {
 }
 
 #minor {
-    border: 2px solid hsl(60, 100%, 80%);
+    border: 2px solid hsl(60, 100%, 88%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 5px 0px 5px;
@@ -285,7 +285,7 @@ nav {
 }
 
 #ssc {
-    border: 2px solid hsl(60, 100%, 80%);
+    border: 2px solid hsl(60, 100%, 88%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 70px 0px 70px;
@@ -644,8 +644,8 @@ nav {
     }
 
     .content p {
-        font-size: 20px;
-        margin-top: 30px;
+        font-size: 18px;
+        margin-top: 15px;
     }
     .typingeffect{
         font-size:1.5rem;
@@ -665,7 +665,7 @@ nav {
     #redbox {
         width: 200px;
         height: 200px;
-        transform: translateY(7vh);
+        transform: translateY(6vh);
     }
 
     .btn button {
