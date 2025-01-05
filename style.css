@@ -226,11 +226,11 @@ nav {
 }
 
 #btek {
-    border: 2px solid white;
+    border: 2px solid hsl(60, 100%, 70%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 5px 0px 5px;
-    color: aqua;
+    color: white;
     display: inline-block;
     text-align: center;
     box-shadow: 0px 0px 5px rgb(247, 245, 245);
@@ -239,21 +239,22 @@ nav {
 }
 
 #btek h1 {
+    color: aqua;
     text-shadow: 0px 0px 5px rgb(218, 26, 218);
 }
 
 #btek:hover {
-    border-color: rgb(255, 255, 50);
+     border-color: yellow;
     font-size: 1.02rem;
     margin-left: 15px;
 }
 
 #dip {
-    border: 2px solid white;
+    border: 2px solid hsl(60, 100%, 70%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 5px 0px 5px;
-    color: aqua;
+    color: white;
     display: inline-block;
     text-align: center;
     box-shadow: 0px 0px 5px rgb(247, 245, 245);
@@ -262,11 +263,12 @@ nav {
 }
 
 #dip h1 {
+    color: aqua;
     text-shadow: 0px 0px 5px violet;
 }
 
 #dip:hover {
-    border-color: rgb(255, 255, 50);
+    border-color: yellow;
     font-size: 1.02rem;
     margin-left: 15px;
 }
@@ -279,11 +281,11 @@ nav {
 }
 
 #minor {
-    border: 2px solid white;
+    border: 2px solid hsl(60, 100%, 70%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 5px 0px 5px;
-    color: aqua;
+    color: white;
     display: inline-block;
     text-align: center;
     box-shadow: 0px 0px 5px rgb(247, 245, 245);
@@ -292,21 +294,22 @@ nav {
 }
 
 #minor h1 {
+    color:aqua;
     text-shadow: 0px 0px 5px violet;
     margin-left: 15px;
 }
 
 #minor:hover {
-    border-color: rgb(255, 255, 50);
+    border-color: yellow;
     font-size: 1.02rem;
 }
 
 #ssc {
-    border: 2px solid white;
+    border: 2px solid hsl(60, 100%, 70%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 70px 0px 70px;
-    color: aqua;
+    color: white;
     display: inline-block;
     text-align: center;
     box-shadow: 0px 0px 5px rgb(247, 245, 245);
@@ -315,11 +318,12 @@ nav {
 }
 
 #ssc h1 {
+     color:aqua;
     text-shadow: 0px 0px 5px violet;
 }
 
 #ssc:hover {
-    border-color: rgb(255, 255, 50);
+    border-color: yellow;
     font-size: 1.02rem;
     margin-left: 15px;
 }
@@ -673,7 +677,7 @@ nav {
     #sidebar{
         margin-right: 40px;
         position: fixed;
-        right: 5%;
+        right: 3%;
         
 
     }
@@ -769,10 +773,8 @@ nav {
         height: 30vh;
         width: 80vw;
         overflow: hidden;
-
     }
-
     .profile #pro {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
