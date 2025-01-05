@@ -3,7 +3,6 @@ body {
     padding: 0;
     scroll-behavior: smooth;
     background: hsl(0, 0%, 15%);
-
 }
 nav {
     display: flex;
@@ -24,13 +23,11 @@ nav {
     margin-left: 50px;
     text-shadow: 0px 0px 14px rgb(231, 5, 235);
 }
-
 #navlist {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     margin: 30px 60px 20px 0px ;
-
 }
 #sidebar{
     display: none;
@@ -45,7 +42,6 @@ nav {
     padding: 20px;
     text-shadow: 0px 0px 14px rgb(57, 255, 20);
     transition: .3s ease-in-out;
-
 }
 
 #navlist a:hover {
@@ -57,7 +53,6 @@ nav {
 #navlist a:active {
     background-color: hsl(0, 3%, 35%);
 }
-
 /* body*/
 #homepage {
     min-height: 100vh;
@@ -74,7 +69,6 @@ nav {
 .content p {
     font-size: 24px;
     color: whitesmoke;
-
 }
 
 .content span {
@@ -95,7 +89,6 @@ nav {
     white-space: nowrap;
     animation: typing 3s steps(30, end);
     animation-iteration-count: infinite;
-
 }
 
 @keyframes typing {
@@ -139,7 +132,6 @@ nav {
     margin-left: 13px;
     cursor: pointer;
     transition: .4s ease-in-out;
-
 }
 
 #hire:hover {
@@ -147,7 +139,6 @@ nav {
     background: linear-gradient(to right, hsl(315, 84%, 61%), rgb(215, 16, 215));
     color: black;
     box-shadow: 0px 0px 15px rgb(245, 243, 243);
-
 }
 
 #view:hover {
@@ -162,7 +153,6 @@ nav {
     height: 330px;
     border-radius: 50%;
     margin: 40px 15vw 0 5vw;
-
 }
 
 #image {
@@ -176,7 +166,6 @@ nav {
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-
 @keyframes glow {
     0% {
         box-shadow: 0px 0px 15px 3px rgb(235, 5, 5);
@@ -203,9 +192,7 @@ nav {
 
     }
 }
-
 /* second page - education*/
-
 .educ {
     height: 100vh;
 }
@@ -235,12 +222,10 @@ nav {
     text-align: center;
     box-shadow: 0px 0px 5px rgb(247, 245, 245);
     transition: .3s ease-in-out;
-
 }
 
 #btek h1 {
     color: aqua;
-    text-shadow: 0px 0px 5px rgb(218, 26, 218);
 }
 
 #btek:hover {
@@ -259,12 +244,10 @@ nav {
     text-align: center;
     box-shadow: 0px 0px 5px rgb(247, 245, 245);
     transition: .3s ease-in-out;
-
 }
 
 #dip h1 {
     color: aqua;
-    text-shadow: 0px 0px 5px violet;
 }
 
 #dip:hover {
@@ -277,7 +260,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
     margin-top: 25px;
-
 }
 
 #minor {
@@ -290,12 +272,10 @@ nav {
     text-align: center;
     box-shadow: 0px 0px 5px rgb(247, 245, 245);
     transition: .3s ease-in-out;
-
 }
 
 #minor h1 {
     color:aqua;
-    text-shadow: 0px 0px 5px violet;
     margin-left: 15px;
 }
 
@@ -314,12 +294,10 @@ nav {
     text-align: center;
     box-shadow: 0px 0px 5px rgb(247, 245, 245);
     transition: .3s ease-in-out;
-
 }
 
 #ssc h1 {
      color:aqua;
-    text-shadow: 0px 0px 5px violet;
 }
 
 #ssc:hover {
@@ -327,7 +305,6 @@ nav {
     font-size: 1.02rem;
     margin-left: 15px;
 }
-
 /* third page - contact*/
 .lastpage {
     min-height: 100vh;
@@ -359,7 +336,6 @@ nav {
 
 .fa-brands.fa-linkedin {
     color: #0077B5;
-
 }
 
 .fa-brands.fa-whatsapp {
@@ -370,19 +346,16 @@ nav {
 .fa-brands.fa-github {
     color: black;
     font-weight: bold;
-
 }
 
 .fa-regular.fa-envelope {
     color: white;
-
 }
 
 .icons :hover {
     cursor: pointer;
     font-size: 3rem;
     transition: .3s ease-in-out;
-
 }
 
 .square .profile {
@@ -407,7 +380,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-shadow: 0px 0px 5px violet;
 }
 
@@ -418,7 +390,6 @@ nav {
 @media(max-width : 968px) {
 
     /*first page*/
-
     #navlist {
         display: none;
         overflow: visible;
@@ -446,7 +417,7 @@ nav {
         display: inline-block;
         font-size: 2em;
         position: fixed;
-        right: 5%;
+        right: 4%;
     }
 
     .content p {
@@ -456,7 +427,6 @@ nav {
         height: auto;
         flex-direction: column-reverse;
         justify-content: space-around;
-
     }
     .content span {
         font-size: 2em;
@@ -521,14 +491,11 @@ nav {
         position: fixed;
         right: 6%;
         top: 5%;
-
-
     }
     #navlist li{
         margin: 15px;
         padding: 15px 0px ;
         gap: 25px;
-
     }
     #navlist a {
     font-size: 1.5em;
@@ -624,9 +591,7 @@ nav {
         height: 40vh;
         width: 65vw;
         overflow: hidden;
-
     }
-
     .profile #pro {
         font-size: 20px;
     }
@@ -656,14 +621,11 @@ nav {
         border-radius: 20px;
         transform: translateX(3vw);
         transform: translateY(5vh);
-
-
     }
     #navlist li{
         margin: 0;
         padding: 20px 0px 20px 0px;
         gap: 20px;
-
     }
     #navlist a {
     font-size: 1.2em;
@@ -709,13 +671,11 @@ nav {
     .content {
         margin: 5vh 0px 0px 35px;
     }
-
     /*second page*/
     .education {
         font-size: 1.3em;
         margin-bottom: 20px;
     }
-
     .educ {
         height: auto;
         font-size: 14px;
@@ -724,7 +684,6 @@ nav {
     .firstrow{
         display: flex;
         flex-wrap: wrap;
-    
     }
     .secondrow{
         display: flex;
@@ -732,7 +691,8 @@ nav {
     }
     #btek ,#dip,#minor,#ssc{
         padding: 5px;
-        width: 290px;    }
+        width: 290px;  
+    }
     #btek h3 {
         font-size: 14px;
     }
