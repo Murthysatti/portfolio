@@ -226,7 +226,7 @@ nav {
 }
 
 #btek {
-    border: 2px solid hsl(60, 100%, 70%);
+    border: 2px solid hsl(60, 100%, 80%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 5px 0px 5px;
@@ -250,7 +250,7 @@ nav {
 }
 
 #dip {
-    border: 2px solid hsl(60, 100%, 70%);
+    border: 2px solid hsl(60, 100%, 80%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 5px 0px 5px;
@@ -281,7 +281,7 @@ nav {
 }
 
 #minor {
-    border: 2px solid hsl(60, 100%, 70%);
+    border: 2px solid hsl(60, 100%, 80%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 5px 0px 5px;
@@ -305,7 +305,7 @@ nav {
 }
 
 #ssc {
-    border: 2px solid hsl(60, 100%, 70%);
+    border: 2px solid hsl(60, 100%, 80%);
     background: transparent;
     border-radius: 20px;
     padding: 0px 70px 0px 70px;
@@ -540,8 +540,7 @@ nav {
     }
     #sidebar{
         position: fixed;
-        right: 5%;
-
+        right: 3%;
     }
 
     .content p {
@@ -675,19 +674,13 @@ nav {
         border-radius: 20px;
     }
     #sidebar{
-        margin-right: 40px;
         position: fixed;
         right: 3%;
-        
-
     }
 
     .content p {
         font-size: 20px;
-        margin-top: 40px;
-    }
-    .content span{
-        font-size: 2.2em ;
+        margin-top: 30px;
     }
     .typingeffect{
         font-size:1.5rem;
